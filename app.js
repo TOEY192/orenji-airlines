@@ -7,8 +7,8 @@ const port = 3000;
 // สร้างการเชื่อมต่อกับ MySQL
 const connection = mysql.createConnection({
     host: 'orenji-airlines.free.nf',  // หรือที่อยู่ของ MySQL Server หรือ IP ของเครื่องที่รัน MySQL 192.168.1.102
-    user: 'root',       // ชื่อผู้ใช้
-    password: 'group13', // รหัสผ่าน
+    user: 'if0_38399233',       // ชื่อผู้ใช้
+    password: 'orenjiAirlines', // รหัสผ่าน
     database: 'if0_38399233_db_flightbooking' // ชื่อฐานข้อมูล
 });
 
