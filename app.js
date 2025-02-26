@@ -2,13 +2,13 @@
 const mysql = require('mysql2');
 const express = require('express');
 const app = express();
-const port = 3306;
+const port = 3000;
 
 // สร้างการเชื่อมต่อกับ MySQL
 const connection = mysql.createConnection({
     host: 'localhost',  // หรือที่อยู่ของ MySQL Server หรือ IP ของเครื่องที่รัน MySQL 192.168.1.102
-    user: 'root',       // ชื่อผู้ใช้
-    password: 'group13', // รหัสผ่าน
+    user: 'jirayu',       // ชื่อผู้ใช้
+    password: 'jirayu13', // รหัสผ่าน
     database: 'db_flightbooking' // ชื่อฐานข้อมูล
 });
 
